@@ -1,0 +1,15 @@
+{
+    "name": "adrian/css-parser",
+    "description": "Parse CSS files and fix formatting errors",
+    "type": "project",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "parser.php"
+        }
+    ],
+    "require": {
+        "nategood/commando": "^0.3.0"
+    },
+    "license": "OPEN GNU"
+}
