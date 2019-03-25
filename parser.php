@@ -91,7 +91,7 @@ class CssParser
                 foreach ($content as $selector => $rules) {
                     $output .= $prefix.$selector . " {\n";
                     foreach ($rules as $property => $value) {
-                        $output .= $prefix."\t".$property.': '.$value;
+                        $output .= $prefix."\t".$property.':'.$value;
                         $output .= ";\n";
                     }
                     $output .= $prefix."}\n\n";
